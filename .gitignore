@@ -1,5 +1,7 @@
-target/
-*.class
-.idea/
+.gradle/
+build/
+local.properties
 *.iml
+.idea/
 .vscode/
+.DS_Store

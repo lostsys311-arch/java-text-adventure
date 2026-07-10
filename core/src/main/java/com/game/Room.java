@@ -48,7 +48,11 @@ public class Room {
         return items;
     }
 
-    public String describe() {
-        return "== " + name + " ==\n" + description;
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }
